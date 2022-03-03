@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/single_function',
+      initialRoute: '/option',
       routes: {
         '/': (context) => const Option(),
         '/multiple_function': (context) => const MultipleFunctionCalculator(),
